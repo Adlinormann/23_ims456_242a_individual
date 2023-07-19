@@ -1,0 +1,341 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.medsos {
+	padding:5px 0;
+	background-color: #090909;
+}
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container {
+	width:80%;
+	margin:0 auto;
+}
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float:left;
+	padding:15px 0;
+	color: #0b0b0b;
+}
+header ul {
+	float:right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding:25px 20px;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color: #0e0e0e;
+	color: #fff;
+}
+.active {
+	background-color: #f71602;
+	color: #fff;
+}
+.banner {
+	height: 60vh;
+	background-image: url('c:\Users\H U A W E I\Pictures\WhatsApp Image 2022-11-04 at 2.39.53 PM.jpeg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgb(9, 9, 9);
+}
+.banner h2 {
+	color: #070707;
+	z-index: 1;
+	padding:20px 25px;
+	width: 150px;
+  	height: 100px;
+  	background-color: hsla(120, 7%, 97%, 0.927);
+  	position: relative;
+  	animation-name: example;
+  	animation-duration: 20s;
+}
+@keyframes example {
+	0%   {background-color:hsla(129, 95%, 49%, 0.947); left:0px; top:0px;}
+  	25%  {background-color:hsla(0, 100%, 50%, 0.923); left:200px; top:0px;}
+  	50%  {background-color:hsla(256, 96%, 48%, 0.927); left:200px; top:200px;}
+  	75%  {background-color:hsla(316, 98%, 50%, 0.948); left:0px; top:200px;}
+  	100% {background-color:hsla(141, 97%, 50%, 0.947); left:0px; top:0px;}
+}
+section {
+	padding:50px 0;
+}
+section h3 {
+	text-align: center;
+	padding:20px 0;
+	color: #070707;
+	margin-bottom: 25px;
+}
+.aboutme,
+.education {
+	background-color: rgb(253, 251, 251);
+	padding-bottom: 100px;
+}
+.aboutme p {
+	background-color: rgb(251, 250, 250);
+	color: #0f0e0e;
+	word-spacing:20px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+	align-items: center;	
+}
+.aboutme img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 50%
+
+}
+.aboutme h4 {
+	margin-top: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-family: sans-serif;
+	background-color: black;
+	text-align: center;
+	font-size: 30px;
+}
+.aboutme ul li {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+	color: rgb(128, 128, 128);
+	background-color: rgba(254, 67, 4, 0.955);
+	border-radius: 50px / 50px;
+ 	padding: 25px; 
+  	width: 700px;
+  	height: 50px; 
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align:left;
+	font-size: 30px;
+	font-style: Georgia, serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.aboutme a {
+  color: rgb(6, 6, 6); 
+  color: rgb(252, 252, 252);
+}
+.aboutme a:hover {
+  color: rgb(249, 56, 8);
+}
+
+.aboutme a:active {
+  color: rgb(255, 68, 0);
+}
+.aboutme p b a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+	color: rgb(11, 11, 11);
+	background-color: black;
+	border-radius: 50px / 50px;
+ 	padding: 25px; 
+  	width: 200px;
+  	height: 20px; 
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align:left;
+	font-size: 25px;
+	font-style: Georgia, serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	word-wrap: normal;
+}
+.education {
+	background-color: rgb(251, 250, 250);
+}
+.box {
+	border: 1px solid;
+	color: #E9967A;
+}
+.box: after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.box .col-4 {
+	width: 25%;
+	padding:20px;
+	box-sizing: border-box;
+	border: 1px solid;
+	text-align: center;
+	float: left;
+}
+.icon {
+	width: 70px;
+	height: 70px;
+	border: 1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 40px;
+	margin: 0 auto;
+}
+.box .col-4 h4 {
+	margin: 20px 0;
+}
+.experience {
+	background-color: rgb(251, 250, 250);
+}
+.experience h2 {
+	word-wrap: break-word;
+	font-size: 40px;
+	font-weight: 40px;
+	border-radius: 15px;
+  	background: rgba(255, 0, 0, 0.932);
+  	padding: 20px; 
+  	width: 800px;
+  	height: 50px;
+  	margin-bottom: 20px;
+  	text-align: center;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	object-fit: fill; 
+}
+.experience ul li {
+	font-family: Georgia, serif;
+	font-size: 30px;
+	font-weight: 20px;
+}
+.experience div ul li {
+  border: 1px solid rgb(16, 16, 16);
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 15px 50px;
+  background: hsla(0, 98%, 48%, 0.948);
+  padding: 20px; 
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.gallery {
+	background-color: rgb(251, 247, 247);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	text-orientation: inherit;
+}
+.gallery img {
+	background-color: rgb(252, 249, 249);
+	color: #0b0b0b;
+	word-spacing:10px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+	align-items: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.gallery div {
+	background-color: lightgray;
+	color: #666;
+	word-spacing:10px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+	align-items: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.contact {
+	background-color: rgb(252, 251, 251);
+}
+footer {
+	padding: 30px 0;
+	background-color: #090909;
+	color: #fff;
+	text-align: center;
+}
+.bg-loader {
+	background-color: #eee;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bg-loader .loader {
+	width: 100px;
+	height: 100px;
+	border: 3px solid #fff;
+	border-radius: 50%
+	border-top-color:#E9967A;
+	border-right-color: #E9967A;
+	border-bottom-color:  #E9967A;
+	animation: putar .5s linear infinite;
+
+}
+.label {
+	background-color: #080808;
+	color: #fff;
+}
+@keyframes putar {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@media screen and (max-width: 768px){
+	.container {
+		width: 90%;
+	}
+	header h1 {
+		text-align: center;
+		float: none;
+	}
+	header ul {
+		text-align: center;
+		float: none;
+	}
+	.box .col-4 {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+}
